@@ -1,5 +1,9 @@
 import React from 'react';
+import MyComponent from './MyComponent';
+import Counter from './Counter';
+import Say from './Say';
 import './App.css';
+
 /*
 function App() {
   const name ='리액트';
@@ -30,11 +34,24 @@ function App() {
   }}>{name}</div>;
 }
 */
+/*
 function App() {
   const name = '리액트';
 
   return <div className="react">{name}</div>;
-}
+}*/
 
+/*
+const App = () => {
+  return <MyComponent name="React" favoriteNumber={1}>리액트</MyComponent>;
+}*/
+
+// const App = () => {
+//   return <Counter />;
+// };
+
+const App = () => {
+  return <Say />
+};
 
 export default App;
