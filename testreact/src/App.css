@@ -27,6 +27,13 @@
 .App-link {
   color: #61dafb;
 }
+.react {
+  background: aqua;
+  color:black;
+  font-size: 48px;
+  font-weight: bold;
+  padding: 16px;
+}
 
 @keyframes App-logo-spin {
   from {
